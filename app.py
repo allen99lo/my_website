@@ -14,7 +14,7 @@ file_path = "static/schedule.xlsx"
 # --- 2. 顯示班表截圖 ---
 if os.path.exists(image_path):
     # 使用你要求的指令顯示圖片
-    st.image(image_path, caption="最新班表截圖", use_column_width=True)
+    st.image(image_path, caption="最新班表截圖", width=True)
 else:
     st.error(f"找不到截圖檔案：{image_path}，請確認已將 Excel 截圖存為 schedule.png 並上傳至 static 資料夾。")
 
