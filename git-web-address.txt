@@ -1,1 +1,11 @@
 https://github.com/allen99lo/my_website.git
+
+
+
+
+git config --global user.email "allen99lo@gmail.com"
+git config --global user.name "allen99lo"
+
+
+
+https://my-website-wecn.onrender.com/
