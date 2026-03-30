@@ -1,0 +1,10 @@
+關鍵提示：更新 GitHub
+當你加入了 static 資料夾或修改了 app.py，別忘了再次執行 Git 指令上傳：
+
+git add .
+
+git commit -m "Add excel link"
+
+git push origin main
+
+Render 會偵測到你的更新並自動重新部署
