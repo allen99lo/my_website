@@ -15,7 +15,7 @@ file_path = "static/schedule.xlsx"
 # 使用 st.button，當點擊時會觸發為 True
 if st.button("🔍 顯示/重新整理班表"):
     if os.path.exists(image_path):
-        st.image(image_path, caption="最新班表截圖", use_container_width=True)
+        st.image(image_path, caption="最新班表截圖", use_container_width=False)
     else:
         st.error(f"找不到截圖檔案：{image_path}，請確認檔案已上傳至 static 資料夾。")
 
